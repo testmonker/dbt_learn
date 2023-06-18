@@ -7,6 +7,7 @@ sources:
     tables:
       - name: customer
       - name: orders
+        description: raw orders table
         columns:
           - name: orderid
             tests:
