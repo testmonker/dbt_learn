@@ -2,7 +2,7 @@ select
     customerid,
     segment,
     country,
-sum(orderporfit) as profit
+sum(orderprofit) as profit
 from {{ ref('stg_orders') }}
 group by 
     customerid,
